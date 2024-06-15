@@ -1,0 +1,1375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Periodic Table</title>
+    <style>
+        body {
+            position: relative;
+            background-color: rgba(208, 206, 56, 0.102);
+        }
+
+        td {
+            position: relative;
+            text-align: center;
+            width: 2.1cm;
+            height: 2.1cm;
+            border-style: solid;
+            border-width: 1px;
+            /* padding: 0; */
+            
+            
+        }
+
+        table {
+            
+            border-collapse: collapse;
+            border: none;
+            display: flex;
+            width: max-content;
+            margin: auto;
+           
+            padding: 2px;
+            
+            
+        }
+
+        .row2, .row3, .row1 {
+            border: none;
+
+        }
+
+
+        .row8, .row9 {
+            border: none;
+            visibility: hidden;
+
+        }
+
+        #row8,
+        .col31,
+        .col33 {
+            background-color: rgba(36, 240, 172, 0.8);
+        }
+
+        #row9,
+        .col34 {
+            background-color: rgba(9, 223, 73, 0.8);
+        }
+
+        .col1 {
+            background-color: rgba(241, 59, 59, 0.6);
+        }
+
+        .col2 {
+            background-color: rgba(237, 237, 34, 0.7);
+        }
+
+
+
+        .p1 {
+            font-size: x-small;
+            font-family: sans-serif;
+            position: absolute;
+            top: 0;
+            left: 5%;
+            margin-top: 6px;
+            margin-left: 2px;
+        }
+
+        .p2 {
+            font-size: x-small;
+            font-family: sans-serif;
+            position: absolute;
+            top: 0;
+            right: 5%;
+            margin-top: 6px;
+            margin-right: 2px;
+        }
+
+        .p3 {
+            font-size: 2.5ch;
+            font-family: sans-serif;
+           
+
+        }
+
+        .p4 {
+            font-size: 11px;
+            font-family: sans-serif;
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translate(-50%);
+            
+            margin-bottom: 6px;
+            
+            
+        }
+
+        .transition-metals {
+            background-color: rgb(255, 165, 0, 0.8);
+        }
+
+        .other-matels {
+            background-color: rgb(216, 112, 147, 0.8);
+        }
+
+        .other-nonmetals {
+            background-color: rgb(0, 255, 255, 0.6);
+        }
+
+        .halogens {
+            background-color: rgb(0, 0, 255, 0.4);
+        }
+
+        .noble-gases {
+            background-color: rgba(14, 11, 11, 0.1);
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <div>
+        <table>
+            <!-- //r1 -->
+            <td class="row1">
+                <p class="p4">1</p>
+                </td>
+                <td class="row1"></td>
+                <td class="row1"></td>
+                <td class="row1"></td>
+                <td class="row1"></td>
+                <td class="row1"></td>
+                <td class="row1"></td>
+                <td class="row1"></td>
+                <td class="row1"></td>
+                <td class="row1"></td>
+                <td class="row1"></td>
+                <td class="row1"></td>
+                <td class="row1"></td>
+                <td class="row1"></td>
+                <td class="row1"></td>
+                <td class="row1"></td>
+                <td class="row1"></td>
+                <td class="row1">
+                    <p class="p4">18</p>
+            </td>
+            <tr>
+                <td class="other-nonmetals">
+                    <div>
+                        <p class="p1">1</p>
+
+                        <p class="p2">1.0078</p>
+
+                        <p class="p3">H</p>
+
+                        <p class="p4">Hydrogen</p>
+                    </div>
+                </td>
+
+                <td class="row1">
+                    <div>
+                        <p class="p4">2</p>
+                    </div>
+                </td>
+                <td class="row1">
+                    <div> </div>
+                </td>
+                <td class="row1">
+                    <div> </div>
+                </td>
+                <td class="row1">
+                    <div> </div>
+                </td>
+                <td class="row1">
+                    <div> </div>
+                </td>
+                <td class="row1">
+                    <div> </div>
+                </td>
+                <td class="row1">
+                    <div> </div>
+                </td>
+                <td class="row1">
+                    <div> </div>
+                </td>
+                <td class="row1">
+                    <div> </div>
+                </td>
+                <td class="row1">
+                    <div> </div>
+                </td>
+                <td class="row1">
+                    <div> </div>
+                </td>
+                <td class="row1">
+                    <div>
+                        <p class="p4">13</p>
+                    </div>
+                </td>
+                <td class="row1">
+                    <div>
+                        <p class="p4">14</p>
+                    </div>
+                </td>
+                <td class="row1">
+                    <div>
+                        <p class="p4">15</p>
+                    </div>
+                </td>
+                <td class="row1">
+                    <div>
+                        <p class="p4">16</p>
+                    </div>
+                </td>
+                <td class="row1">
+                    <div>
+                        <p class="p4">17</p>
+                    </div>
+                </td>
+                <td  class="noble-gases">
+                    <div>
+                        <p class="p1">2</p>
+
+                        <p class="p2">4.0026</p>
+
+                        <p class="p3">He</p>
+
+                        <p class="p4">Helium</p>
+                    </div>
+                </td>
+            </tr>
+            <!-- //r2 -->
+            <tr>
+                <td class="col1">
+                    <div>
+                        <p class="p1">3</p>
+
+                        <p class="p2">6.938</p>
+
+                        <p class="p3">Li</p>
+
+                        <p class="p4">Lithium</p>
+                    </div>
+                </td>
+
+                <td class="col2">
+                    <div>
+                        <p class="p1">4</p>
+
+                        <p class="p2">9.0121</p>
+
+                        <p class="p3">Be</p>
+
+                        <p class="p4">Berilium</p>
+                    </div>
+                </td>
+                <td class="row2">
+                    <div> </div>
+                </td>
+                <td class="row2">
+                    <div> </div>
+                </td>
+                <td class="row2">
+                    <div> </div>
+                </td>
+                <td class="row2">
+                    <div> </div>
+                </td>
+                <td class="row2">
+                    <div> </div>
+                </td>
+                <td class="row2">
+                    <div> </div>
+                </td>
+                <td class="row2">
+                    <div> </div>
+                </td>
+                <td class="row2">
+                    <div> </div>
+                </td>
+                <td class="row2">
+                    <div> </div>
+                </td>
+                <td class="row2">
+                    <div> </div>
+                </td>
+                <td class="other-nonmetals">
+                    <div>
+                        <p class="p1">5</p>
+
+                        <p class="p2">10.81</p>
+
+                        <p class="p3">B</p>
+
+                        <p class="p4">Boron</p>
+                    </div>
+                </td>
+                <td class="other-nonmetals">
+                    <div>
+                        <p class="p1">6</p>
+
+                        <p class="p2">12.011</p>
+
+                        <p class="p3">C</p>
+
+                        <p class="p4">Carbon</p>
+                    </div>
+                </td>
+                <td class="other-nonmetals">
+                    <div>
+                        <p class="p1">7</p>
+
+                        <p class="p2">14.007</p>
+
+                        <p class="p3">N</p>
+
+                        <p class="p4">Nitrogen</p>
+                    </div>
+                </td>
+                <td class="other-nonmetals">
+                    <div>
+                        <p class="p1">8</p>
+
+                        <p class="p2">15.999</p>
+
+                        <p class="p3">O</p>
+
+                        <p class="p4">Oxygen</p>
+                    </div>
+                </td>
+                <td class="halogens">
+                    <div>
+                        <p class="p1">9</p>
+
+                        <p class="p2">18.9984</p>
+
+                        <p class="p3">F</p>
+
+                        <p class="p4">Fluorine</p>
+                    </div>
+                </td>
+                <td  class="noble-gases">
+                    <div>
+                        <p class="p1">10</p>
+
+                        <p class="p2">20.180</p>
+
+                        <p class="p3">Ne</p>
+
+                        <p class="p4">Neon</p>
+                    </div>
+                </td>
+            </tr>
+            <!-- //r3 -->
+            <tr>
+                <td class="col1">
+                    <div>
+                        <p class="p1">11</p>
+                        <p class="p2">22.989</p>
+                        <p class="p3">Na</p>
+                        <p class="p4">Sodium</p>
+                    </div>
+                </td>
+                <td class="col2">
+                    <div>
+                        <p class="p1">12</p>
+                        <p class="p2">24.305</p>
+                        <p class="p3">Mg</p>
+                        <p class="p4">Magnesium</p>
+                    </div>
+                </td>
+                <td class="row3">
+                    <div>
+                        <p class="p4">3</p>
+                    </div>
+                </td>
+                <td class="row3">
+                    <div>
+                        <p class="p4">4</p>
+                    </div>
+                </td>
+                <td class="row3">
+                    <div>
+                        <p class="p4">5</p>
+                    </div>
+                </td>
+                <td class="row3">
+                    <div>
+                        <p class="p4">6</p>
+                    </div>
+                </td>
+                <td class="row3">
+                    <div>
+                        <p class="p4">7</p>
+                    </div>
+                </td>
+                <td class="row3">
+                    <div>
+                        <p class="p4">8</p>
+                    </div>
+                </td>
+                <td class="row3">
+                    <div>
+                        <p class="p4">9</p>
+                    </div>
+                </td>
+                <td class="row3">
+                    <div>
+                        <p class="p4">10</p>
+                    </div>
+                </td>
+                <td class="row3">
+                    <div>
+                        <p class="p4">11</p>
+                    </div>
+                </td>
+                <td class="row3">
+                    <div>
+                        <p class="p4">12</p>
+                    </div>
+                </td>
+                <td class="other-matels">
+                    <div>
+                        <p class="p1">13</p>
+                        <p class="p2">26.9815</p>
+                        <p class="p3">Al</p>
+                        <p class="p4">Aluminum</p>
+                    </div>
+                </td>
+                <td class="other-nonmetals">
+                    <div>
+                        <p class="p1">14</p>
+                        <p class="p2">28.085</p>
+                        <p class="p3">Si</p>
+                        <p class="p4">Silicon</p>
+                    </div>
+                </td>
+                <td class="other-nonmetals">
+                    <div>
+                        <p class="p1">15</p>
+                        <p class="p2">30.9738</p>
+                        <p class="p3">P</p>
+                        <p class="p4">Phosphorus</p>
+                    </div>
+                </td>
+                <td class="other-nonmetals">
+                    <div>
+                        <p class="p1">16</p>
+                        <p class="p2">32.06</p>
+                        <p class="p3">S</p>
+                        <p class="p4">Sulfur</p>
+                    </div>
+                </td>
+                <td class="halogens">
+                    <div>
+                        <p class="p1">17</p>
+                        <p class="p2">35.45</p>
+                        <p class="p3">Cl</p>
+                        <p class="p4">Chlorine</p>
+                    </div>
+                </td>
+                <td  class="noble-gases">
+                    <div>
+                        <p class="p1">18</p>
+                        <p class="p2">39.948</p>
+                        <p class="p3">Ar</p>
+                        <p class="p4">Argon</p>
+                    </div>
+                </td>
+            </tr>
+            <!-- //transition-metals -->
+            <tr>
+                <td class="col1">
+                    <div>
+                        <p class="p1">19</p>
+                        <p class="p2">39.098</p>
+                        <p class="p3">K</p>
+                        <p class="p4">Potassium</p>
+                    </div>
+                </td>
+                <td class="col2">
+                    <div>
+                        <p class="p1">20</p>
+                        <p class="p2">40.078</p>
+                        <p class="p3">Ca</p>
+                        <p class="p4">Calcium</p>
+                    </div>
+                </td>
+                <td class="col31">
+                    <div>
+                        <p class="p1">21</p>
+
+                        <p class="p2">44.9559</p>
+
+                        <p class="p3">Sc</p>
+
+                        <p class="p4">Scandium</p>
+                    </div>
+                </td>
+                <td class="transition-metals">
+                    <div>
+                        <p class="p1">22</p>
+
+                        <p class="p2">47.867</p>
+
+                        <p class="p3">Ti</p>
+
+                        <p class="p4">Titanium</p>
+                    </div>
+                </td>
+                <td class="transition-metals">
+                    <div>
+                        <p class="p1">23</p>
+
+                        <p class="p2">50.9415</p>
+
+                        <p class="p3">V</p>
+
+                        <p class="p4">Vanadium</p>
+                    </div>
+                </td>
+                <td class="transition-metals">
+                    <div>
+                        <p class="p1">24</p>
+
+                        <p class="p2">1.0078</p>
+
+                        <p class="p3">Cr</p>
+
+                        <p class="p4">Chromium</p>
+                    </div>
+                </td>
+                <td class="transition-metals">
+                    <div>
+                        <p class="p1">25</p>
+
+                        <p class="p2">1.0078</p>
+
+                        <p class="p3">Mn</p>
+
+                        <p class="p4">Manganese</p>
+                    </div>
+                </td>
+                <td class="transition-metals">
+                    <div>
+                        <p class="p1">26</p>
+
+                        <p class="p2">1.0078</p>
+
+                        <p class="p3">Fe</p>
+
+                        <p class="p4">Iron</p>
+                    </div>
+                </td>
+                <td class="transition-metals">
+                    <div>
+                        <p class="p1">27</p>
+
+                        <p class="p2">1.0078</p>
+
+                        <p class="p3">Co</p>
+
+                        <p class="p4">Cobalt</p>
+                    </div>
+                </td>
+                <td class="transition-metals">
+                    <div>
+                        <p class="p1">28</p>
+
+                        <p class="p2">1.0078</p>
+
+                        <p class="p3">Ni</p>
+
+                        <p class="p4">Nickel</p>
+                    </div>
+                </td>
+                <td class="transition-metals">
+                    <div>
+                        <p class="p1">29</p>
+
+                        <p class="p2">1.0078</p>
+
+                        <p class="p3">Cu</p>
+
+                        <p class="p4">Copper</p>
+                    </div>
+                </td>
+                <td class="transition-metals">
+                    <div>
+                        <p class="p1">30</p>
+
+                        <p class="p2">1.0078</p>
+
+                        <p class="p3">Zn</p>
+
+                        <p class="p4">Zinc</p>
+                    </div>
+                </td>
+                <td class="other-matels">
+                    <div>
+                        <p class="p1">31</p>
+                        <p class="p2">69.723</p>
+                        <p class="p3">Ga</p>
+                        <p class="p4">Gallium</p>
+                    </div>
+                </td>
+                <td class="other-matels">
+                    <div>
+                        <p class="p1">32</p>
+                        <p class="p2">72.63</p>
+                        <p class="p3">Ge</p>
+                        <p class="p4">Germanium</p>
+                    </div>
+                </td>
+                <td class="other-nonmetals">
+                    <div>
+                        <p class="p1">33</p>
+                        <p class="p2">74.9216</p>
+                        <p class="p3">As</p>
+                        <p class="p4">Arsenic</p>
+                    </div>
+                </td>
+                <td class="other-nonmetals">
+                    <div>
+                        <p class="p1">34</p>
+                        <p class="p2">78.96</p>
+                        <p class="p3">Se</p>
+                        <p class="p4">Selenium</p>
+                    </div>
+                </td>
+                <td class="halogens">
+                    <div>
+                        <p class="p1">35</p>
+                        <p class="p2">79.904</p>
+                        <p class="p3">Br</p>
+                        <p class="p4">Bromine</p>
+                    </div>
+                </td>
+                <td  class="noble-gases">
+                    <div>
+                        <p class="p1">36</p>
+                        <p class="p2">83.798</p>
+                        <p class="p3">Kr</p>
+                        <p class="p4">Krypton</p>
+                    </div>
+                </td>
+            </tr>
+            <!-- //r5 -->
+            <tr>
+                <td class="col1">
+                    <div>
+                        <p class="p1">37</p>
+                        <p class="p2">85.468</p>
+                        <p class="p3">Rb</p>
+                        <p class="p4">Rubidium</p>
+                    </div>
+                </td>
+                <td class="col2">
+                    <div>
+                        <p class="p1">38</p>
+                        <p class="p2">87.62</p>
+                        <p class="p3">Sr</p>
+                        <p class="p4">Strontium</p>
+                    </div>
+                </td>
+                <td class="col31">
+                    <div>
+                        <p class="p1">39</p>
+                        <p class="p2">88.9058</p>
+                        <p class="p3">Y</p>
+                        <p class="p4">Yttrium</p>
+                    </div>
+                </td>
+                <td class="transition-metals">
+                    <div>
+                        <p class="p1">40</p>
+                        <p class="p2">91.224</p>
+                        <p class="p3">Zr</p>
+                        <p class="p4">Zirconium</p>
+                    </div>
+                </td>
+                <td class="transition-metals">
+                    <div>
+                        <p class="p1">41</p>
+                        <p class="p2">92.9064</p>
+                        <p class="p3">Nb</p>
+                        <p class="p4">Niobium</p>
+                    </div>
+                </td>
+                <td class="transition-metals">
+                    <div>
+                        <p class="p1">42</p>
+                        <p class="p2">95.95</p>
+                        <p class="p3">Mo</p>
+                        <p class="p4">Molybdenum</p>
+                    </div>
+                </td>
+                <td class="transition-metals">
+                    <div>
+                        <p class="p1">43</p>
+                        <p class="p2">98</p>
+                        <p class="p3">Tc</p>
+                        <p class="p4">Technetium</p>
+                    </div>
+                </td>
+                <td class="transition-metals">
+                    <div>
+                        <p class="p1">44</p>
+                        <p class="p2">101.07</p>
+                        <p class="p3">Ru</p>
+                        <p class="p4">Ruthenium</p>
+                    </div>
+                </td>
+                <td class="transition-metals">
+                    <div>
+                        <p class="p1">45</p>
+                        <p class="p2">102.905</p>
+                        <p class="p3">Rh</p>
+                        <p class="p4">Rhodium</p>
+                    </div>
+                </td>
+                <td class="transition-metals">
+                    <div>
+                        <p class="p1">46</p>
+                        <p class="p2">106.42</p>
+                        <p class="p3">Pd</p>
+                        <p class="p4">Palladium</p>
+                    </div>
+                </td>
+                <td class="transition-metals">
+                    <div>
+                        <p class="p1">47</p>
+                        <p class="p2">107.8682</p>
+                        <p class="p3">Ag</p>
+                        <p class="p4">Silver</p>
+                    </div>
+                </td>
+                <td class="transition-metals">
+                    <div>
+                        <p class="p1">48</p>
+                        <p class="p2">112.411</p>
+                        <p class="p3">Cd</p>
+                        <p class="p4">Cadmium</p>
+                    </div>
+                </td>
+                <td class="other-matels">
+                    <div>
+                        <p class="p1">49</p>
+                        <p class="p2">114.818</p>
+                        <p class="p3">In</p>
+                        <p class="p4">Indium</p>
+                    </div>
+                </td>
+                <td class="other-matels">
+                    <div>
+                        <p class="p1">50</p>
+                        <p class="p2">118.71</p>
+                        <p class="p3">Sn</p>
+                        <p class="p4">Tin</p>
+                    </div>
+                </td>
+                <td class="other-matels">
+                    <div>
+                        <p class="p1">51</p>
+                        <p class="p2">121.76</p>
+                        <p class="p3">Sb</p>
+                        <p class="p4">Antimony</p>
+                    </div>
+                </td>
+                <td class="other-nonmetals">
+                    <div>
+                        <p class="p1">52</p>
+                        <p class="p2">127.6</p>
+                        <p class="p3">Te</p>
+                        <p class="p4">Tellurium</p>
+                    </div>
+                </td>
+                <td class="halogens">
+                    <div>
+                        <p class="p1">53</p>
+                        <p class="p2">126.904</p>
+                        <p class="p3">I</p>
+                        <p class="p4">Iodine</p>
+                    </div>
+                </td>
+                <td  class="noble-gases">
+                    <div>
+                        <p class="p1">54</p>
+                        <p class="p2">131.293</p>
+                        <p class="p3">Xe</p>
+                        <p class="p4">Xenon</p>
+                    </div>
+                </td>
+            </tr>
+            <!-- //r6 -->
+            <tr>
+                <td class="col1">
+                    <div>
+                        <p class="p1">55</p>
+                        <p class="p2">132.905</p>
+                        <p class="p3">Cs</p>
+                        <p class="p4">Cesium</p>
+                    </div>
+                </td>
+                <td class="col2">
+                    <div>
+                        <p class="p1">56</p>
+
+                        <p class="p2">137.33</p>
+
+                        <p class="p3">Ba</p>
+
+                        <p class="p4">Barium</p>
+                    </div>
+                </td>
+                <td class="col33">
+                    <div>
+                        <p class="p1">57</p>
+
+                        <p class="p2">138.9055</p>
+
+                        <p class="p3">La</p>
+
+                        <p class="p4">Lanthanum</p>
+                    </div>
+                </td>
+                <td class="transition-metals">
+                    <div>
+                        <p class="p1">72</p>
+                        <p class="p2">178.49</p>
+                        <p class="p3">Hf</p>
+                        <p class="p4">Hafnium</p>
+                    </div>
+                </td>
+                <td class="transition-metals">
+                    <div>
+                        <p class="p1">73</p>
+                        <p class="p2">180.948</p>
+                        <p class="p3">Ta</p>
+                        <p class="p4">Tantalum</p>
+                    </div>
+                </td>
+                <td class="transition-metals">
+                    <div>
+                        <p class="p1">74</p>
+                        <p class="p2">183.84</p>
+                        <p class="p3">W</p>
+                        <p class="p4">Tungsten</p>
+                    </div>
+                </td>
+                <td class="transition-metals">
+                    <div>
+                        <p class="p1">75</p>
+                        <p class="p2">186.207</p>
+                        <p class="p3">Re</p>
+                        <p class="p4">Rhenium</p>
+                    </div>
+                </td>
+                <td class="transition-metals">
+                    <div>
+                        <p class="p1">76</p>
+                        <p class="p2">190.23</p>
+                        <p class="p3">Os</p>
+                        <p class="p4">Osmium</p>
+                    </div>
+                </td>
+                <td class="transition-metals">
+                    <div>
+                        <p class="p1">77</p>
+                        <p class="p2">192.217</p>
+                        <p class="p3">Ir</p>
+                        <p class="p4">Iridium</p>
+                    </div>
+                </td>
+                <td class="transition-metals">
+                    <div>
+                        <p class="p1">78</p>
+                        <p class="p2">195.084</p>
+                        <p class="p3">Pt</p>
+                        <p class="p4">Platinum</p>
+                    </div>
+                </td>
+                <td class="transition-metals">
+                    <div>
+                        <p class="p1">79</p>
+                        <p class="p2">196.966</p>
+                        <p class="p3">Au</p>
+                        <p class="p4">Gold</p>
+                    </div>
+                </td>
+                <td class="transition-metals">
+                    <div>
+                        <p class="p1">80</p>
+                        <p class="p2">200.59</p>
+                        <p class="p3">Hg</p>
+                        <p class="p4">Mercury</p>
+                    </div>
+                </td>
+                <td class="other-matels">
+                    <div>
+                        <p class="p1">81</p>
+                        <p class="p2">204.383</p>
+                        <p class="p3">Tl</p>
+                        <p class="p4">Thallium</p>
+                    </div>
+                </td>
+                <td class="other-matels">
+                    <div>
+                        <p class="p1">82</p>
+                        <p class="p2">207.2</p>
+                        <p class="p3">Pb</p>
+                        <p class="p4">Lead</p>
+                    </div>
+                </td>
+                <td class="other-matels">
+                    <div>
+                        <p class="p1">83</p>
+                        <p class="p2">208.980</p>
+                        <p class="p3">Bi</p>
+                        <p class="p4">Bismuth</p>
+                    </div>
+                </td>
+                <td class="other-matels">
+                    <div>
+                        <p class="p1">84</p>
+                        <p class="p2">209</p>
+                        <p class="p3">Po</p>
+                        <p class="p4">Polonium</p>
+                    </div>
+                </td>
+                <td class="halogens">
+                    <div>
+                        <p class="p1">85</p>
+                        <p class="p2">210</p>
+                        <p class="p3">At</p>
+                        <p class="p4">Astatine</p>
+                    </div>
+                </td>
+                <td  class="noble-gases">
+                    <div>
+                        <p class="p1">86</p>
+                        <p class="p2">222</p>
+                        <p class="p3">Rn</p>
+                        <p class="p4">Radon</p>
+                    </div>
+                </td>
+            </tr>
+            <!-- //r7 -->
+            <tr>
+                <td class="col1">
+                    <div>
+                        <p class="p1">87</p>
+                        <p class="p2">223</p>
+                        <p class="p3">Fr</p>
+                        <p class="p4">Francium</p>
+                    </div>
+                </td>
+                <td class="col2">
+                    <div>
+                        <p class="p1">88</p>
+
+                        <p class="p2">226.0254</p>
+
+                        <p class="p3">Ra</p>
+
+                        <p class="p4">Radium</p>
+                    </div>
+                </td>
+                <td class="col34">
+                    <div>
+
+                        <p class="p1">89</p>
+
+                        <p class="p2">227.0277</p>
+
+                        <p class="p3">Ac</p>
+
+                        <p class="p4">Actinium</p>
+                    </div>
+                </td>
+                <td class="transition-metals">
+                    <div>
+                        <p class="p1">104</p>
+                        <p class="p2">267</p>
+                        <p class="p3">Rf</p>
+                        <p class="p4">Rutherfordium</p>
+                    </div>
+                </td>
+                <td class="transition-metals">
+                    <div>
+                        <p class="p1">105</p>
+                        <p class="p2">270</p>
+                        <p class="p3">Db</p>
+                        <p class="p4">Dubnium</p>
+                    </div>
+                </td>
+                <td class="transition-metals">
+                    <div>
+                        <p class="p1">106</p>
+                        <p class="p2">271</p>
+                        <p class="p3">Sg</p>
+                        <p class="p4">Seaborgium</p>
+                    </div>
+                </td>
+                <td class="transition-metals">
+                    <div>
+                        <p class="p1">107</p>
+                        <p class="p2">270</p>
+                        <p class="p3">Bh</p>
+                        <p class="p4">Bohrium</p>
+                    </div>
+                </td>
+                <td class="transition-metals">
+                    <div>
+                        <p class="p1">108</p>
+                        <p class="p2">277</p>
+                        <p class="p3">Hs</p>
+                        <p class="p4">Hassium</p>
+                    </div>
+                </td>
+                <td class="transition-metals">
+                    <div>
+                        <p class="p1">109</p>
+                        <p class="p2">276</p>
+                        <p class="p3">Mt</p>
+                        <p class="p4">Meitnerium</p>
+                    </div>
+                </td>
+                <td class="transition-metals">
+                    <div>
+                        <p class="p1">110</p>
+                        <p class="p2">281</p>
+                        <p class="p3">Ds</p>
+                        <p class="p4">Darmstadtium</p>
+                    </div>
+                </td>
+                <td class="transition-metals">
+                    <div>
+                        <p class="p1">111</p>
+                        <p class="p2">282</p>
+                        <p class="p3">Rg</p>
+                        <p class="p4">Roentgenium</p>
+                    </div>
+                </td>
+                <td class="transition-metals">
+                    <div>
+                        <p class="p1">112</p>
+                        <p class="p2">285</p>
+                        <p class="p3">Cn</p>
+                        <p class="p4">Copernicium</p>
+                    </div>
+                </td>
+                <td class="other-matels">
+                    <div>
+                        <p class="p1">113</p>
+                        <p class="p2">286</p>
+                        <p class="p3">Nh</p>
+                        <p class="p4">Nihonium</p>
+                    </div>
+                </td>
+                <td class="other-matels">
+                    <div>
+                        <p class="p1">114</p>
+                        <p class="p2">289</p>
+                        <p class="p3">Fl</p>
+                        <p class="p4">Flerovium</p>
+                    </div>
+                </td>
+                <td class="other-matels">
+                    <div>
+                        <p class="p1">115</p>
+                        <p class="p2">290</p>
+                        <p class="p3">Mc</p>
+                        <p class="p4">Moscovium</p>
+                    </div>
+                </td>
+                <td class="other-matels">
+                    <div>
+                        <p class="p1">116</p>
+                        <p class="p2">293</p>
+                        <p class="p3">Lv</p>
+                        <p class="p4">Livermorium</p>
+                    </div>
+                </td>
+                <td class="halogens">
+                    <div>
+                        <p class="p1">117</p>
+                        <p class="p2">294</p>
+                        <p class="p3">Ts</p>
+                        <p class="p4">Tennessine</p>
+                    </div>
+                </td>
+                <td class="noble-gases">
+                    <div>
+                        <p class="p1">118</p>
+                        <p class="p2">294</p>
+                        <p class="p3">Og</p>
+                        <p class="p4">Oganesson</p>
+                    </div>
+                </td>
+            </tr>
+            <!-- //r8 -->
+            <tr id="row8">
+                <td class="row8">
+                    <div> </div>
+                </td>
+                <td class="row8">
+                    <div> </div>
+                </td>
+                <td class="row8">
+                    <div> </div>
+                </td>
+                <td>
+                    <div>
+                        <p class="p1">58</p>
+                        <p class="p2">140.116</p>
+                        <p class="p3">Ce</p>
+                        <p class="p4">Cerium</p>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <p class="p1">59</p>
+                        <p class="p2">140.9077</p>
+                        <p class="p3">Pr</p>
+                        <p class="p4">Praseodymium</p>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <p class="p1">60</p>
+                        <p class="p2">144.242</p>
+                        <p class="p3">Nd</p>
+                        <p class="p4">Neodymium</p>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <p class="p1">61</p>
+                        <p class="p2">145</p>
+                        <p class="p3">Pm</p>
+                        <p class="p4">Promethium</p>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <p class="p1">62</p>
+                        <p class="p2">150.36</p>
+                        <p class="p3">Sm</p>
+                        <p class="p4">Samarium</p>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <p class="p1">63</p>
+                        <p class="p2">151.964</p>
+                        <p class="p3">Eu</p>
+                        <p class="p4">Europium</p>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <p class="p1">64</p>
+                        <p class="p2">157.25</p>
+                        <p class="p3">Gd</p>
+                        <p class="p4">Gadolinium</p>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <p class="p1">65</p>
+                        <p class="p2">158.925</p>
+                        <p class="p3">Tb</p>
+                        <p class="p4">Terbium</p>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <p class="p1">66</p>
+                        <p class="p2">162.5</p>
+                        <p class="p3">Dy</p>
+                        <p class="p4">Dysprosium</p>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <p class="p1">67</p>
+                        <p class="p2">164.930</p>
+                        <p class="p3">Ho</p>
+                        <p class="p4">Holmium</p>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <p class="p1">68</p>
+                        <p class="p2">167.259</p>
+                        <p class="p3">Er</p>
+                        <p class="p4">Erbium</p>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <p class="p1">69</p>
+                        <p class="p2">168.934</p>
+                        <p class="p3">Tm</p>
+                        <p class="p4">Thulium</p>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <p class="p1">70</p>
+                        <p class="p2">173.04</p>
+                        <p class="p3">Yb</p>
+                        <p class="p4">Ytterbium</p>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <p class="p1">71</p>
+                        <p class="p2">174.967</p>
+                        <p class="p3">Lu</p>
+                        <p class="p4">Lutetium</p>
+                    </div>
+                </td>
+                <td class="row8">
+                    <div> </div>
+                </td>
+            </tr>
+            <!-- //r9 -->
+            <tr id="row9">
+                <td class="row9">
+                    <div> </div>
+                </td>
+                <td class="row9">
+                    <div> </div>
+                </td>
+                <td class="row9">
+                    <div> </div>
+                </td>
+                <td>
+                    <div>
+                        <p class="p1">90</p>
+                        <p class="p2">232.038</p>
+                        <p class="p3">Th</p>
+                        <p class="p4">Thorium</p>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <p class="p1">91</p>
+                        <p class="p2">231.0359</p>
+                        <p class="p3">Pa</p>
+                        <p class="p4">Protactinium</p>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <p class="p1">92</p>
+                        <p class="p2">238.0289</p>
+                        <p class="p3">U</p>
+                        <p class="p4">Uranium</p>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <p class="p1">93</p>
+                        <p class="p2">237</p>
+                        <p class="p3">Np</p>
+                        <p class="p4">Neptunium</p>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <p class="p1">94</p>
+                        <p class="p2">244</p>
+                        <p class="p3">Pu</p>
+                        <p class="p4">Plutonium</p>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <p class="p1">95</p>
+                        <p class="p2">243</p>
+                        <p class="p3">Am</p>
+                        <p class="p4">Americium</p>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <p class="p1">96</p>
+                        <p class="p2">247</p>
+                        <p class="p3">Cm</p>
+                        <p class="p4">Curium</p>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <p class="p1">97</p>
+                        <p class="p2">247</p>
+                        <p class="p3">Bk</p>
+                        <p class="p4">Berkelium</p>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <p class="p1">98</p>
+                        <p class="p2">251</p>
+                        <p class="p3">Cf</p>
+                        <p class="p4">Californium</p>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <p class="p1">99</p>
+                        <p class="p2">252</p>
+                        <p class="p3">Es</p>
+                        <p class="p4">Einsteinium</p>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <p class="p1">100</p>
+                        <p class="p2">257</p>
+                        <p class="p3">Fm</p>
+                        <p class="p4">Fermium</p>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <p class="p1">101</p>
+                        <p class="p2">258</p>
+                        <p class="p3">Md</p>
+                        <p class="p4">Mendelevium</p>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <p class="p1">102</p>
+                        <p class="p2">259</p>
+                        <p class="p3">No</p>
+                        <p class="p4">Nobelium</p>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <p class="p1">103</p>
+                        <p class="p2">262</p>
+                        <p class="p3">Lr</p>
+                        <p class="p4">Lawrencium</p>
+                    </div>
+                </td>
+                <td class="row9">
+                    <div> </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>

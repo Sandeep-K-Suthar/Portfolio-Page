@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <title>Movies Watchlist Project</title>
+    <style>
+        header {
+            background-color: rgba(20, 222, 202, 0.861);
+            padding: 3ch;
+            padding-top: 2ch;
+            padding-bottom: 2ch;
+            margin: 3ch 10ch 3ch 10ch;
+            text-align: center;
+            font-family: sans-serif;
+            border-radius: 15px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 10px 10px rgba(255, 19, 19, 0.799);
+            
+        }
+
+        div {
+            background-color: rgba(20, 222, 202, 0.328);
+            display: flex;
+            flex-wrap: wrap;
+            margin: 2ch 10ch 2ch 10ch;
+            justify-content: center;
+            border-radius: 10px;
+            padding: 5ch;
+            padding-top: 3ch;
+            padding-bottom: 3ch;
+        }
+
+        .optdiv {
+            position: relative;
+            padding: 0;
+            margin: 0;
+
+            text-align: center;
+            background: none;
+        }
+
+        h2 {
+            padding: 0;
+            margin: 0;
+            margin-top: 3cm;
+            position: absolute;
+            color: rgb(255, 0, 0);
+            display: flex;
+            text-align: center;
+            top: 20%;
+            left: 50%;
+            transform: translate(-50%, -80%);
+        }
+
+        .rating {
+            margin-top: 4.8cm;
+            position: absolute;
+            color: rgb(255, 0, 0);
+            display: flex;
+            text-align: center;
+            top: 15%;
+            left: 50%;
+            transform: translate(-50%, -75%);
+        }
+
+        img {
+            z-index: 1;
+            margin: 1cm;
+            border-radius: 12px;
+            box-shadow: 6px 5px rgba(255, 19, 19, 0.818);
+            object-fit: cover;
+            width: 5cm;
+            height: 7.4cm;
+            transition: 0.2s ease-in-out;
+
+        }
+
+
+        img:hover {
+            transform: scale(1.1);
+            opacity: 0.2;
+            cursor: pointer;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        h3 {
+            width: 15ch;
+        }
+
+        footer {
+            display: flex;
+            background-color: rgb(15, 201, 182);
+            margin: 5ch;
+            border-radius: 5px;
+            box-shadow: 2px 2px rgba(255, 19, 19, 0.799);
+            justify-content: space-evenly;
+        }
+
+        #button {
+
+            background-color: rgba(12, 244, 221, 0.88);
+            border-radius: 10px;
+            padding-top: 3px;
+            padding-bottom: 3px;
+            padding-left: 8px;
+            padding-right: 8px;
+            font-size: medium;
+            border: none;
+            box-shadow: 1px 1px 1px 1px rgba(32, 178, 171, 0.924);
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <h1>Sandeep's movies watchlist and its rating.</h1>
+    </header>
+    <br>
+    <p>Just hover over the tiles to see the ratings</p>
+    <hr>
+    <br>
+
+
+    <div>
+        <div class="optdiv">
+            <img src="../assests/A beautiful Mind.jpg" alt="beautiful mind poster">
+
+            <h2>A Beautiful Mind</h2>
+            <br>
+            <p class="rating">Rating: 10</p>
+        </div>
+        <div class="optdiv">
+            <img src="../assests/Interstaller.jpg" alt="interstaller poster">
+            <h2>Interstaller</h2>
+            <br>
+            <p class="rating">Rating: 10</p>
+        </div>
+        <div class="optdiv">
+            <img src="../assests/The_Imitation_Game_(2014).png" alt="the imitition game poster">
+
+            <h2>The Imitation Game</h2>
+            <br>
+            <p class="rating">Rating: 9</p>
+        </div>
+        <div class="optdiv">
+            <img src="../assests/Gifted.jpg" alt=" gifted poster">
+
+            <h2>Gifted</h2>
+            <br>
+            <p class="rating">Rating: 9</p>
+        </div>
+        <div class="optdiv">
+            <img src="../assests/A star is born.jpg" alt="A star is born poster">
+
+            <h2>A Star is Born</h2>
+            <br>
+            <p class="rating">Rating: 9</p>
+        </div>
+        <div class="optdiv">
+            <img src="../assests/Ant Man.jpg" alt="ant man poster">
+
+            <h2>Ant Man</h2>
+            <br>
+            <p class="rating">Rating: 8</p>
+        </div>
+        <div class="optdiv">
+            <img src="../assests/Iron Man.jpg" alt="iron man poster">
+
+            <h2>Iron Man</h2>
+            <br>
+            <p class="rating">Rating: 9</p>
+        </div>
+        <div class="optdiv">
+            <img src="../assests/Wolverine.jpg" alt="wolverine poster">
+
+            <h2>Wolverine</h2>
+            <br>
+            <p class="rating">Rating: 9</p>
+        </div>
+        <div class="optdiv">
+            <img src="../assests/Traffic_-_2016_Movie_Poster.jpg" alt="traffic poster">
+
+            <h2>Traffic</h2>
+            <br>
+            <p class="rating">Rating: 8</p>
+        </div>
+        <div class="optdiv">
+            <img src="../assests/Wazir_poster.jpg" alt="wazir poster">
+
+            <h2>Wazir</h2>
+            <br>
+            <p class="rating">Rating: 10</p>
+        </div>
+
+    </div>
+    <br>
+    <hr>
+    <footer>
+        <p>Copyright @sandeep 2024 </P>
+           <p> static-webpage</p>
+    </footer>
+</body>
+
+</html>

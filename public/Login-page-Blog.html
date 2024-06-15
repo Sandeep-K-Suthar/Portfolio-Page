@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/SignUp</title>
+    <style>
+        fieldset {
+            background-color: rgba(0, 183, 255, 0.852);
+            font-family: sans-serif;
+            position: fixed;
+            padding: 5ch;
+            width: 15ch;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            box-shadow: 5px 5px lightsalmon;
+            border-radius: 4ch;
+
+        }
+
+        #name>input {
+            padding: 5px;
+            width: 7cm;
+            border-radius: 2ch;
+            margin-top: 10px;
+            /* box-shadow: 0px 0px 5px 3px rgb(82, 216, 172); */
+            border-width: 3px;
+            border-color: orange;
+            padding-left: 15px;
+            font-size: medium;
+
+        }
+
+        #pass>input {
+            padding: 5px;
+            width: 7cm;
+            border-radius: 2ch;
+            margin-top: 10px;
+            /* box-shadow: 0px 0px 5px 3px rgb(82, 216, 172); */
+            border-width: 3px;
+            border-color: orange;
+            padding-left: 15px;
+            font-size: medium;
+        }
+
+        button {
+
+            border-radius: 2ch;
+            border-width: 2px;
+            border-color: orange;
+            width: 2cm;
+            padding: 7px;
+            /* box-shadow: 0px 0px 5px 3px rgb(82, 216, 172); */
+        }
+
+        #button {
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 3ch;
+        }
+
+        a:link {
+            color: black;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <fieldset>
+        <legend style="color: rgb(252, 84, 17); font-size: large;">Login/SignUp</legend>
+        <form>
+            <div id="name">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name">
+            </div>
+            <br>
+            <div id="pass">
+
+                <label for="pass">Password:</label>
+                <input type="password" id="pass">
+            </div>
+            <br>
+            <div id="button">
+                <button><a href="./Tiny Blog-Project-(navhar, login, signp)-(2.1-3.3).html">Login</a></button>
+                <button><a href="./Sign-up-page-Blog.html">SignUp</a></button>
+            </div>
+        </form>
+    </fieldset>
+</body>
+
+</html>
