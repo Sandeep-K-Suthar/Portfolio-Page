@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://sandeep-k-suthar.github.io/Portfolio-Page/">
-    <img src="path/to/your/logo.png" alt="Sandeep Suthar Logo" width="150">
+    <img src="https://github.com/Sandeep-K-Suthar/Portfolio-Page/blob/main/assests/profile1.png" alt="Sandeep's profile pic" width="150">
   </a>
 </p>
 
