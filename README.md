@@ -18,7 +18,7 @@
 
 <p align="center">
   <a href="https://github.com/sandeep-suthar/portfolio/actions">
-    <img src="https://github.com/sandeep-suthar/portfolio/workflows/Build/badge.svg" alt="Build Status">
+    <img src="https://github.com/sandeep-suthar/portfolio/actions/workflows/build.yml/badge.svg" alt="Build Status">
   </a>
   <a href="https://github.com/sandeep-suthar/portfolio/releases">
     <img src="https://img.shields.io/github/v/release/sandeep-suthar/portfolio" alt="Latest Release">
@@ -34,10 +34,9 @@
 ## 📑 Table of Contents
 
 - [About Me](#-about-me)
-- [Projects](#-projects)
+- [Projects](#-projects) - [Screenshots](#-screenshots)
 - [Technologies](#-technologies)
 - [Contact](#-contact)
-- [Screenshots](#-screenshots)
 - [Contributing](#-contributing)
 - [Support](#-support)
 
@@ -49,30 +48,24 @@ Hello! I'm Sandeep Suthar, a MERN Stack Developer with a passion for building dy
 
 <br>
 
-
-## 🚀 Projects
-
-### Interactive Periodic Table
-An engaging tool designed with HTML and CSS, showcasing all chemical elements.
-
-[Live Demo](./public/Periodic-Table-Project-using-HTML-and-CSS.html) | ![Interactive Periodic Table](./assets/Chemistry-Periodic-Table-Project-HTML-CSS.png)
+## 🚀 Projects  |  📸 Screenshots
 
 <br>
 
-### Mini Blog Platform
-A sleek and modern blog platform with a navbar, login, and signup pages, built to enhance user experience.
+<h4 align="center">Interactive Periodic Table</h4>
+<p align="center">
+<img src="https://github.com/Sandeep-K-Suthar/Portfolio-Page/blob/main/assests/Chemistry%20Periodic%20Table%20Project%20(HTML%20CSS).png" alt="" width= "500px">
+</p>
 
-[Live Demo](./public/Tiny-Blog-Project-navhar-login-signp-2.1-3.3.html) | ![Mini Blog Platform](./assets/Mulipage-Blog-Project-with-Login-SignUp-pages-HTML-CSS.png)
+<h4 align="center">Mini Blog Platform</h4>
+<p align="center">
+<img src="https://github.com/Sandeep-K-Suthar/Portfolio-Page/blob/main/assests/Mulipage%20Blog%20Project%20with%20Login-SignUp%20pages%20(HTML%20CSS).png" alt="" width= "500px">
+</p>
 
-<br>
-
-
-### Interactive Personal Movie Rating Project
-A user-friendly interface designed with accessibility and usability in mind.
-
-[Live Demo](./public/movies-ranking-Project-using-2.1-2.3.html) | ![Interactive Personal Movie Rating Project](./assets/Movies-Rating-Project-flex-page-HTML-CSS.png)
-
-<br>
+<h4 align="center">Interactive Personal Movie Rating Project</h4>
+<p align="center">
+  <img src="https://github.com/Sandeep-K-Suthar/Portfolio-Page/blob/main/assests/Movies%20Rating%20Project%20flex%20page%20(HTML%20CSS).png" alt="Movies Rating Project" width="500px">
+</p>
 
 
 ## 💻 Technologies
@@ -86,28 +79,10 @@ A user-friendly interface designed with accessibility and usability in mind.
 
 Feel free to reach out if you have any questions or if you're interested in collaborating on a project.
 
-- **Email:** sandeep@example.com
+- **Email:** sandeep.khemani@outlook.com
 - **LinkedIn:** [Sandeep Suthar](https://www.linkedin.com/in/sandeep-k-suthar)
 - **Portfolio:** [sandeep-portfolio.com](https://sandeep-k-suthar.github.io/Portfolio-Page/)
 
-<br>
-
-## 📸 Screenshots
-
-<br>
-
-### Interactive Periodic Table
-![Interactive Periodic Table](../assets/Chemistry-Periodic-Table-Project-HTML-CSS.png)
-
-<br>
-
-### Mini Blog Platform
-![Mini Blog Platform](../assets/Mulipage-Blog-Project-with-Login-SignUp-pages-HTML-CSS.png)
-
-<br>
-
-### Interactive Personal Movie Rating Project
-![Interactive Personal Movie Rating Project](../assets/Movies-Rating-Project-flex-page-HTML-CSS.png)
 
 <br>
 
