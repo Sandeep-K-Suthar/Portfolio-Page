@@ -42,13 +42,11 @@
 - [Support](#-support)
 
 <br>
-<br>
 
 ## 🧑‍💼 About Me
 
 Hello! I'm Sandeep Suthar, a MERN Stack Developer with a passion for building dynamic and responsive web applications. With one year of experience, I have developed several projects that showcase my coding skills and creativity. 
 
-<br>
 <br>
 
 
@@ -75,7 +73,6 @@ A user-friendly interface designed with accessibility and usability in mind.
 [Live Demo](./public/movies-ranking-Project-using-2.1-2.3.html) | ![Interactive Personal Movie Rating Project](./assets/Movies-Rating-Project-flex-page-HTML-CSS.png)
 
 <br>
-<br>
 
 
 ## 💻 Technologies
@@ -83,7 +80,6 @@ A user-friendly interface designed with accessibility and usability in mind.
 - HTML5
 - CSS3
 
-<br>
 <br>
 
 ## 📬 Contact
@@ -95,33 +91,30 @@ Feel free to reach out if you have any questions or if you're interested in coll
 - **Portfolio:** [sandeep-portfolio.com](https://sandeep-k-suthar.github.io/Portfolio-Page/)
 
 <br>
-<br>
 
 ## 📸 Screenshots
 
 <br>
 
 ### Interactive Periodic Table
-![Interactive Periodic Table](./assets/Chemistry-Periodic-Table-Project-HTML-CSS.png)
+![Interactive Periodic Table](../assets/Chemistry-Periodic-Table-Project-HTML-CSS.png)
 
 <br>
 
 ### Mini Blog Platform
-![Mini Blog Platform](./assets/Mulipage-Blog-Project-with-Login-SignUp-pages-HTML-CSS.png)
+![Mini Blog Platform](../assets/Mulipage-Blog-Project-with-Login-SignUp-pages-HTML-CSS.png)
 
 <br>
 
 ### Interactive Personal Movie Rating Project
-![Interactive Personal Movie Rating Project](./assets/Movies-Rating-Project-flex-page-HTML-CSS.png)
+![Interactive Personal Movie Rating Project](../assets/Movies-Rating-Project-flex-page-HTML-CSS.png)
 
-<br>
 <br>
 
 ## 🤝 Contributing
 
 Contributions are welcome! Please read through our [contributing guidelines](https://github.com/sandeep-suthar/portfolio/blob/main/.github/CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
 
-<br>
 <br>
 
 ## 💡 Support
