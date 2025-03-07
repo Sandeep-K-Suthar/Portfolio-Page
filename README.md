@@ -11,20 +11,20 @@
   <br>
   <a href="https://sandeep-k-suthar.github.io/Portfolio-Page/"><strong>Visit my Portfolio »</strong></a>
   <br>
-  <a href="https://github.com/sandeep-suthar/portfolio/issues/new?template=bug_report.md">Report Bug</a>
+  <a href="https://github.com/sandeep-k-suthar/portfolio/issues/new?template=bug_report.md">Report Bug</a>
   ·
-  <a href="https://github.com/sandeep-suthar/portfolio/issues/new?template=feature_request.md">Request Feature</a>
+  <a href="https://github.com/sandeep-k-suthar/portfolio/issues/new?template=feature_request.md">Request Feature</a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/sandeep-suthar/portfolio/actions">
-    <img src="https://github.com/sandeep-suthar/portfolio/actions/workflows/build.yml/badge.svg" alt="Build Status">
+  <a href="https://github.com/sandeep-k-suthar/portfolio/actions">
+    <img src="https://github.com/sandeep-k-ksuthar/portfolio/actions/workflows/build.yml/badge.svg" alt="Build Status">
   </a>
-  <a href="https://github.com/sandeep-suthar/portfolio/releases">
-    <img src="https://img.shields.io/github/v/release/sandeep-suthar/portfolio" alt="Latest Release">
+  <a href="https://github.com/sandeep-k-suthar/portfolio/releases">
+    <img src="https://img.shields.io/github/v/release/sandeep-k-suthar/portfolio" alt="Latest Release">
   </a>
-  <a href="https://github.com/sandeep-suthar/portfolio/issues">
-    <img src="https://img.shields.io/github/issues/sandeep-suthar/portfolio" alt="Issues">
+  <a href="https://github.com/sandeep-k-suthar/portfolio/issues">
+    <img src="https://img.shields.io/github/issues/sandeep-k-suthar/portfolio" alt="Issues">
   </a>
 </p>
 
@@ -88,7 +88,7 @@ Feel free to reach out if you have any questions or if you're interested in coll
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please read through our [contributing guidelines](https://github.com/sandeep-suthar/portfolio/blob/main/.github/CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
+Contributions are welcome! Please read through our [contributing guidelines](https://github.com/sandeep-k-suthar/portfolio/blob/main/.github/CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
 
 <br>
 
@@ -96,6 +96,6 @@ Contributions are welcome! Please read through our [contributing guidelines](htt
 
 This project is open-source and free to use. However, maintaining and developing new features requires time and effort. If you find this project useful, consider supporting me:
 
-- **Sponsor on GitHub:** [Sponsor Sandeep](https://github.com/sponsors/sandeep-suthar)
+- **Sponsor on GitHub:** [Sponsor Sandeep](https://github.com/sponsors/sandeep-k-suthar)
 
 
